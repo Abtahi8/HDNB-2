@@ -1,74 +1,86 @@
-Task 2
-Overview
-In this assessment, you will analyze the Titanic dataset using SQL in BigQuery and create visualizations to answer specific questions. The assessment is designed for those who are new to SQL and should be completed within 3-4 hours.
+
+# Titanic Data Analysis with SQL in BigQuery
+
+This project is a beginner-friendly data analysis of the **Titanic dataset**, conducted using **SQL in Google BigQuery** and visualized through a customizable dashboard. The objective is to uncover survival patterns based on factors such as passenger class, gender, age, fare, and port of embarkation.
+
+## Project Overview
+
+The Titanic dataset, originally from [Kaggle](https://www.kaggle.com/competitions/titanic/data), contains demographic and travel information of passengers aboard the RMS Titanic. Using SQL, we answer key analytical questions and draw insights into who was more likely to survive the tragedy.
+
+The final output includes:
+- Cleaned and structured dataset in BigQuery
+- A set of analytical SQL queries answering specific business questions
+- A visual dashboard summarizing findings
+
+---
+
+## Dataset Description
+
+We used `train.csv` from the Titanic dataset, which contains the following key fields:
+
+| Column       | Description                                           |
+|--------------|-------------------------------------------------------|
+| PassengerId  | Unique ID for each passenger                          |
+| Survived     | Survival (0 = No, 1 = Yes)                            |
+| Pclass       | Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)              |
+| Name         | Name of the passenger                                 |
+| Sex          | Gender                                                |
+| Age          | Age in years                                          |
+| SibSp        | # of siblings/spouses aboard                          |
+| Parch        | # of parents/children aboard                          |
+| Ticket       | Ticket number                                         |
+| Fare         | Passenger fare                                        |
+| Cabin        | Cabin number (if available)                           |
+| Embarked     | Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton) |
+
+---
+
+## Tasks Completed
+
+### 1. Data Preparation
+- Uploaded `train.csv` into Google BigQuery
+- Handled missing values (`Age`, `Fare`, `Embarked`)
+- Ensured proper data types (e.g., integers for `Pclass`, `Survived`)
+
+### 2. Data Analysis (SQL in BigQuery)
+We answered the following questions:
+1. What percentage of passengers survived?
+2. What is the survival rate by passenger class?
+3. What is the survival rate by gender?
+4. What is the average fare for survivors vs. non-survivors?
+5. What is the average age of survivors and non-survivors?
+6. What is the survival rate by port of embarkation?
+7. How does family size (SibSp + Parch) affect survival?
+8. Who are the top 10 fare-paying survivors?
+
+### 3. Dashboard Creation
+- Created a visual dashboard using [Your Visualization Tool: e.g., Google Data Studio / Tableau / Power BI]
+- Included survival breakdowns by gender, class, fare, and embarkation port
+- Custom visualizations to communicate insights clearly
+
+---
+
+## Sample Visualizations
+*(Add screenshots or embed links once available)*
+
+- Survival Rate by Gender
+- Average Fare vs Survival Status
+- Survival Rate by Embarkation Port
+- Family Size Impact on Survival
+
+---
+
+## Technologies Used
+
+- **Google BigQuery** – SQL-based data analysis
+- **Google Cloud Platform** – Cloud storage and querying
+- **[Visualization Tool]** – Dashboard creation
+- **Kaggle Titanic Dataset** – Source data
+
+---
 
 
-Dataset
-You will use the Titanic Dataset from Kaggle. Focus on the **train.csv** file, which contains essential data on passengers, including survival status, age, gender, and class.
 
-Key Fields
-:PassengerId: Unique ID for each passenger.
-Survived: 0 = Did not survive, 1 = Survived.
-Pclass: Passenger class (1 = 1st, 2 = 2nd, 3 = 3rd).
-Name: Passenger's name.
-Sex: Gender of the passenger.
-Age: Age of the passenger.
-SibSp: Number of siblings and spouses aboard.
-Parch: Number of parents and children aboard.
-Ticket: Ticket number.
-Fare: Fare paid for the ticket.
-Cabin: Cabin number (if known).
-Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
-Tasks
 
-1. Data Preparation:
-Import Data into BigQuery:
  
-Create a new BigQuery project or use an existing one.
- 
-Upload the **train.csv** dataset.
-Data Cleaning:
- 
-Handle any missing values in the Age, Fare, and Embarked columns.
- 
-Ensure data types are correct (e.g., Pclass, Survived should be integers, Fare and Age should be numeric).
-2. Data Analysis
-Answer the following questions using SQL queries in BigQuery:
-
-Questions:
-1. Overall Survival Rate:
- 
- What percentage of passengers survived?
-2. Survival by Passenger Class (Pclass):
- 
- What is the survival rate for each passenger class (1st, 2nd, 3rd)?
-3. Survival by Gender (Sex):
- 
- What is the survival rate based on gender?
-4. Fare vs. Survival:
- 
- What is the average fare for survivors vs. non-survivors?
-5. Age vs. Survival:
- 
- What is the average age of survivors and non-survivors?
-6. Survival by Embarkation Port (Embarked):
- 
- What is the survival rate based on the port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)?
-7. Family Size vs. Survival (SibSp and Parch):
- 
- How does family size (sum of SibSp and Parch) affect survival?
-8. Top 10 Survivors by Fare Paid:
- 
- Who are the top 10 passengers who paid the highest fare and survived?
-3. Dashboard Creation
-After answering the questions through your SQL analysis, create a dashboard based on **your own insights** from the data. You can use any visualization tool (e.g., Google Data Studio, Tableau, Power BI, or Excel) to create your dashboard.
-Suggested Visuals: You can visualize data like survival rates, survival by gender, class, and fare, or any other insights you found compelling. However, the design and focus of the dashboard are up to you.
-Customization: Feel free to explore beyond the given questions, find other trends in the dataset, and reflect them in your dashboard.
-4. Submission
-SQL Queries: Submit a document with the SQL queries used to answer the questions.
-Dashboard or Visualizations: Submit screenshots or a link to the dashboard.
-Evaluation Criteria
-Correctness of SQL Queries
-Clarity and Creativity of the Dashboard
-Insights Derived from Data 
 
