@@ -14,6 +14,9 @@ The final output includes:
 
 ---
 
+## Data Source
+
+Passenger Data: [CSV file](https://github.com/Abtahi8/HDNB-2/blob/main/Titanic%20passenger.csv)
 ## Dataset Description
 
 We used `train.csv` from the Titanic dataset, which contains the following key fields:
