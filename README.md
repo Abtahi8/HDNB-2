@@ -64,7 +64,7 @@ We answered the following questions:
 ---
 
 ## Dashboard
-[Dashboard Link]([https://github.com/Abtahi8/HDNB-2/blob/main/HDNB_Final_Task.pdf](https://lookerstudio.google.com/reporting/f7f98975-6484-42ea-9f72-26b94f956b13/page/IQrPE/edit?s=kqenz5Xaxdk))
+[Dashboard Link](https://lookerstudio.google.com/s/kqenz5Xaxdk)
 
 ---
 
