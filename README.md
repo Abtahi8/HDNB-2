@@ -57,28 +57,24 @@ We answered the following questions:
 8. Who are the top 10 fare-paying survivors?
 
 ### 3. Dashboard Creation
-- Created a visual dashboard using [Your Visualization Tool: e.g., Google Data Studio / Tableau / Power BI]
+- Created a visual dashboard using Lookerstudio
 - Included survival breakdowns by gender, class, fare, and embarkation port
 - Custom visualizations to communicate insights clearly
 
 ---
 
-## Sample Visualizations
-*(Add screenshots or embed links once available)*
-
-- Survival Rate by Gender
-- Average Fare vs Survival Status
-- Survival Rate by Embarkation Port
-- Family Size Impact on Survival
+## Dashboard
+[Dashboard Link]([https://github.com/Abtahi8/HDNB-2/blob/main/HDNB_Final_Task.pdf](https://lookerstudio.google.com/reporting/f7f98975-6484-42ea-9f72-26b94f956b13/page/IQrPE/edit?s=kqenz5Xaxdk))
 
 ---
 
-## Technologies Used
+## Key Insights
 
-- **Google BigQuery** – SQL-based data analysis
-- **Google Cloud Platform** – Cloud storage and querying
-- **[Visualization Tool]** – Dashboard creation
-- **Kaggle Titanic Dataset** – Source data
+- Average survival rate was 38.38%
+- Females had a significantly higher survival rate.
+- 1st-class passengers had the highest survivor percentage and surprisingly 3rd-class passenfers had higher survivors than 2nd-class passengers.
+- Higher fare correlated with higher survival likelihood.
+- Ages ranging from 20-40 had better survival rate and passengers aged around 30 having the highest survivor count.
 
 ---
 
